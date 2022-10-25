@@ -1,0 +1,57 @@
+.row {
+    padding-top: 10px;
+    display: flex;
+}
+
+.bahan {
+    color: #52452b;
+    background-color: #FFCA62;
+    border-radius: 10px;
+    width: 80%;
+    height: 300px;
+    margin: auto;
+}
+
+.bahan h3 {
+    text-align: center;
+}
+
+.teks-bahan {
+    padding-top: 3px;
+}
+
+.teks-bahan li {
+    padding-top: 10px;
+    padding-botttom: 10px;
+}
+
+.column {
+    flex: 50%;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.column .content {
+    padding-left: 15px;
+    color: white;
+}
+
+.column .content img {
+    width: 80%;
+    /* border-radius: 20px; */
+    box-shadow: 2px 4px 8px rgb(8, 8, 8);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+/* .cara {
+    text-align: center;
+} */
+
+.deskripsi {
+    text-align: justify;
+    margin-bottom: 60px;
+}
