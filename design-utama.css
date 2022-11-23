@@ -4,9 +4,22 @@ body {
 }
 
 #page-logo {
+  height: 60px;
+}
+
+#page-logo a {
   font-family: "Oleo Script", sans-serif;
   color: rgb(245, 243, 160);
+  /* position: fixed; */
+  /* height: 10px; */
   padding-left: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+#page-logo a h1 {
+  margin: 0;
+  margin-top: 7px;
 }
 
 header {

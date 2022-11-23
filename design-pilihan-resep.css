@@ -10,7 +10,7 @@ main h1 {
     font-size: 48px;
 }
 
- #list-makanan {
+#list-makanan {
     width: 80%;
     margin: 32px auto;
 }
@@ -37,13 +37,14 @@ main ul li:hover {
 .makanan {
     background-color: rgb(228, 206, 182);
     border-radius: 6px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .makanan img {
     height: 240px;
     width: 100%;
     object-fit: cover;
+    overflow: hidden;
 }
 
 .konten-makanan {
@@ -56,14 +57,4 @@ main ul li:hover {
     margin: 0 0 5px 0;
 }
 
-/* .btn {
-    background-color: rgb(228, 157, 44);
-    color: white;
-    border-radius: 4px;
-    padding: 0.5rem 1.5rem;
-    text-decoration: none;
-}
-
-.btn:hover {
-    background-color: rgb(221, 134, 34);
-} */
+/*  */

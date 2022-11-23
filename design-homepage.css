@@ -1,7 +1,7 @@
 #hero {
     height: 600px;
     width: 100%;
-    background-image: url(/gambar/gambar-homepage.jpg);
+    background-image: url(gambar/gambar-homepage.jpg);
     background-position: center;
     background-size: cover;
     z-index: 1;
@@ -66,7 +66,7 @@
     margin: 24px 0;
 }
 
-#destination {
+#list-highlight {
     display: flex;
     width: 90%;
     margin: auto;
@@ -74,19 +74,19 @@
     justify-content: center;
 }
 
-.destination {
+.makanan {
     margin: 0px 24px;
     text-transform: uppercase;
 }
 
-.destination p{
+.makanan p{
     text-align: center;
     font-size: 24px;
     color: rgb(124, 123, 123);
     margin: 20px 0;
 }
 
-.destination img{
+.makanan img{
     height: 200px;
     width: 100%;
     box-shadow: 2px 4px 8px rgb(68, 67, 67);
@@ -94,6 +94,6 @@
     object-fit: contain;
 }
 
-.destination strong {
-    color: rgb(26, 223, 43);
+.makanan strong {
+    color: rgb(223, 184, 26);
 }
