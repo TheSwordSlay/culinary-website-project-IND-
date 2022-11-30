@@ -1,6 +1,8 @@
+
 .row {
     padding-top: 10px;
     display: flex;
+    width: 100%;
 }
 
 .bahan {
@@ -8,7 +10,7 @@
     background-color: #FFCA62;
     border-radius: 10px;
     width: 80%;
-    height: 650px;
+    /* height: 650px; */
     margin: auto;
 }
 
@@ -22,7 +24,6 @@
 
 .teks-bahan li {
     padding-top: 10px;
-    padding-botttom: 10px;
 }
 
 .column {
@@ -30,10 +31,11 @@
     margin: auto;
     margin-top: 0;
     margin-bottom: 10px;
+    padding-right: 0;
 }
 
 .column .content {
-    padding-left: 15px;
+    padding-right: 1rem;
     color: white;
 }
 
@@ -55,4 +57,9 @@
     text-align: justify;
     margin-bottom: 60px;
     width: 80%;
+}
+
+.porsi {
+    font-size: large;
+    font-weight: 750;
 }
