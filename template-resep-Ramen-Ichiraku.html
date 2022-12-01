@@ -16,6 +16,7 @@
      />
     <link rel="stylesheet" href="design-utama.css">
     <link rel="stylesheet" href="design-resep.css">
+    <script src="resepjepang.js" defer></script>
     <title>Document</title>
   </head>
   <body>
@@ -77,28 +78,28 @@
               <div class="container my-3">
                 <h3>Bahan-bahan</h3>
               <ul>
-                <li>150 gr ramen hijau</li>
-                <li>150 gr udang, kupas kulitnya</li>
-                <li>½ sdt garam</li>
-                <li>3 sdm minyak</li>
-                <li>4 siung bawang merah</li>
-                <li>½ ruas jahe, cincang halus</li>
-                <li>3 siung bawang merah</li>
-                <li>2 buah tomat, rebus sebentar kemudian cincang dan buang kulitnya</li>
-                <li>1 sdm pasta tomat</li>
-                <li>¼ sdt cabai merah bubuk</li>
-                <li>¼ sdt garam</li>
-                <li>¼ sdt gula pasir</li>
-                <li>¼ sdt merica</li>
-                <li>1 sdm kecap asin</li>
-                <li>1 batang daun bawang, iris halus</li>
+                <li><span id="b1">150</span> gr ramen hijau</li>
+                <li><span id="b2">150</span> gr udang, kupas kulitnya</li>
+                <li><span id="b10">0.5</span> sdt garam</li>
+                <li><span id="b3">3</span> sdm minyak</li>
+                <li><span id="b4">4</span> siung bawang merah</li>
+                <li><span id="b11">0.5</span> ruas jahe, cincang halus</li>
+                <li><span id="b5">3</span> siung bawang merah</li>
+                <li><span id="b6">2</span> buah tomat, rebus sebentar kemudian cincang dan buang kulitnya</li>
+                <li><span id="b7">1</span> sdm pasta tomat</li>
+                <li><span id="b12">0.25</span> sdt cabai merah bubuk</li>
+                <li><span id="b13">0.25</span> sdt garam</li>
+                <li><span id="b14">0.25</span> sdt gula pasir</li>
+                <li><span id="b15">0.25</span> sdt merica</li>
+                <li><span id="b8">1</span> sdm kecap asin</li>
+                <li><span id="b9">1</span> batang daun bawang, iris halus</li>
                 <li>Jagung secukupnya (optional)</li>
               </ul>
               <div class="mb-3 mx-4">
                 <p class="porsi">Jumlah porsi : <span class="porsi" id="porsicounter">1</span></p>
               </div>
-              <button type="text" class="btn btn-primary mb-3 mx-2" style="background-color: rgb(255, 211, 15);">Tambah porsi</button>
-              <button type="text" class="btn btn-primary mb-3 mx-2" style="background-color: rgb(255, 211, 15);">Kurangi porsi</button>
+              <button type="text" class="btn btn-primary mb-3 mx-2" id="tambahp" style="background-color: rgb(255, 211, 15);">Tambah porsi</button>
+              <button type="text" class="btn btn-primary mb-3 mx-2" id="kurangp" style="background-color: rgb(255, 211, 15);">Kurangi porsi</button>
               </div>
             </div>
           </div>

@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="design-utama.css">
     <link rel="stylesheet" href="design-resep.css">
     <title>Document</title>
+    <script src="resepbanten.js" defer></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -77,31 +78,31 @@
               <div class="container my-3">
                 <h3>Bahan-bahan</h3>
                 <ul>
-                  <li>500 gr daaging dan tetelan</li>
-                  <li>1 liter air</li> 
-                  <li>1 ikat daun walang</li>
-                  <li>2 lembar daun salam</li>
-                  <li>1 batang serai, geprek</li>
+                  <li><span id="b1">500</span> gr daaging dan tetelan</li>
+                  <li><span id="b2">1</span> liter air</li> 
+                  <li><span id="b3">1</span> ikat daun walang</li>
+                  <li><span id="b4">2</span> lembar daun salam</li>
+                  <li><span id="b5">1</span> batang serai, geprek</li>
                   <li>Garam secukupnya</li>
                   <li>Gula secukupnya</li>
                   <li>Kaldu jamur secukupnya</li>
                 </ul>
                 <h3>Bahan bumbu</h3>
                 <ul>
-                  <li>10 siung bawang merah</li>
-                  <li>5 siung bawang putih</li>
-                  <li>2 buah cabe rawit merah</li>
-                  <li>3 buah cabe merah keriting</li>
-                  <li>3 butir kemiri</li>
-                  <li>3 cm kencur</li>
-                  <li>1 ruas jahe</li>
-                  <li>1 ruas kunyit</li>
+                  <li><span id="b6">10</span> siung bawang merah</li>
+                  <li><span id="b7">5</span> siung bawang putih</li>
+                  <li><span id="b8">2</span> buah cabe rawit merah</li>
+                  <li><span id="b9">3</span> buah cabe merah keriting</li>
+                  <li><span id="b10">3</span> butir kemiri</li>
+                  <li><span id="b11">3</span> cm kencur</li>
+                  <li><span id="b12">1</span> ruas jahe</li>
+                  <li><span id="b13">1</span> ruas kunyit</li>
                 </ul>
                 <div class="mb-3 mx-4">
                   <p class="porsi">Jumlah porsi : <span class="porsi" id="porsicounter">1</span></p>
                 </div>
-                <button type="text" class="btn btn-primary mb-3 mx-2" style="background-color: rgb(255, 211, 15);">Tambah porsi</button>
-                <button type="text" class="btn btn-primary mb-3 mx-2" style="background-color: rgb(255, 211, 15);">Kurangi porsi</button>
+                <button type="text" id="tambahp" class="btn btn-primary mb-3 mx-2" style="background-color: rgb(255, 211, 15);">Tambah porsi</button>
+                <button type="text" id="kurangp" class="btn btn-primary mb-3 mx-2" style="background-color: rgb(255, 211, 15);">Kurangi porsi</button>
               </div>
             </div>
           </div>

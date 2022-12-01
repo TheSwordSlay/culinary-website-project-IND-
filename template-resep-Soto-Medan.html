@@ -16,6 +16,7 @@
      />
     <link rel="stylesheet" href="design-utama.css">
     <link rel="stylesheet" href="design-resep.css">
+    <script src="resepmedan.js" defer></script>
     <title>Document</title>
   </head>
   <body>
@@ -77,14 +78,14 @@
               <div class="container my-3">
                <h3>Bahan-bahan</h3>
               <ul>
-                <li>1 kg ayam potong kecil, cuci, ungkep diambil aja, sisihkan</li>
-                <li>1 buah wortel, potong dadu</li>
-                <li>Santan dari 1 butir kelapa (pisahkan santan encer dan kentalnya)</li>
-                <li>3 batang serai digeprek</li>
-                <li>3 ruas jari lengkuas digeprek</li>
-                <li>5 buah daun jeruk remas</li>
-                <li>2 batang daun bawang, iris</li>
-                <li>3 batang daun seledri, iris</li>
+                <li><span id="b1">1</span> kg ayam potong kecil, cuci, ungkep diambil aja, sisihkan</li>
+                <li><span id="b2">1</span> buah wortel, potong dadu</li>
+                <li>Santan dari <span id="b3">1</span> butir kelapa (pisahkan santan encer dan kentalnya)</li>
+                <li><span id="b4">3</span> batang serai digeprek</li>
+                <li><span id="b5">3</span> ruas jari lengkuas digeprek</li>
+                <li><span id="b6">5</span> buah daun jeruk remas</li>
+                <li><span id="b7">2</span> batang daun bawang, iris</li>
+                <li><span id="b8">3</span> batang daun seledri, iris</li>
                 <li>Bawang goreng secukupnya</li>
                 <li>Gula</li>
                 <li>Garam</li>
@@ -92,27 +93,27 @@
               </ul>
               <h3>Bahan bumbu</h3>
               <ul>
-                <li>12 buah bawang merah</li>
-                <li>4 buah bawang putih</li>
-                <li>1 ruas jari jahe</li>
-                <li>2 ruas jari kunyit, bakat</li>
-                <li>4 buah kemiri, sangrai</li>
-                <li>1 sdm ketumbar, sangrai</li>
-                <li>1 sdm merica</li>
-                <li>1/2 bulatan buah pala</li>
+                <li><span id="b9">12</span> buah bawang merah</li>
+                <li><span id="b10">4</span> buah bawang putih</li>
+                <li><span id="b11">1</span> ruas jari jahe</li>
+                <li><span id="b12">2</span> ruas jari kunyit, bakat</li>
+                <li><span id="b13">4</span> buah kemiri, sangrai</li>
+                <li><span id="b14">1</span> sdm ketumbar, sangrai</li>
+                <li><span id="b15">1</span> sdm merica</li>
+                <li><span id="b20">0.5</span> bulatan buah pala</li>
 			        </ul>
               <h3>Rempah-rempah</h3>
               <ul>
-                <li>3 buah kayu manis</li>
-                <li>3 buah bunga lawang</li>
-                <li>4 buah kapulaga</li>
-                <li>5 buah cengkeh</li>
+                <li><span id="b16">3</span> buah kayu manis</li>
+                <li><span id="b17">3</span> buah bunga lawang</li>
+                <li><span id="b18">4</span> buah kapulaga</li>
+                <li><span id="b19">5</span> buah cengkeh</li>
               </ul>
               <div class="mb-3 mx-4">
                 <p class="porsi">Jumlah porsi : <span class="porsi" id="porsicounter">1</span></p>
               </div>
-              <button type="text" class="btn btn-primary mb-3 mx-2" style="background-color: rgb(255, 211, 15);">Tambah porsi</button>
-              <button type="text" class="btn btn-primary mb-3 mx-2" style="background-color: rgb(255, 211, 15);">Kurangi porsi</button>
+              <button type="text" class="btn btn-primary mb-3 mx-2" id="tambahp" style="background-color: rgb(255, 211, 15);">Tambah porsi</button>
+              <button type="text" class="btn btn-primary mb-3 mx-2" id="kurangp" style="background-color: rgb(255, 211, 15);">Kurangi porsi</button>
               </div>
             </div>
           </div>
