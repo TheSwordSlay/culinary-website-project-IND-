@@ -1,22 +1,51 @@
 #hero {
-    height: 600px;
+    height: 110%;
     width: 100%;
-    background-image: url(gambar/gambar-homepage.jpg);
-    background-position: center;
-    background-size: cover;
+    /* background-image: url(gambar/gambar-homepage.jpg); */
+    /* background-position: center;
+    background-size: cover; */
+    position: absolute;
     z-index: 1;
 }
 
+#carouselExampleSlidesOnly{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#carouselExampleSlidesOnly .carousel-inner{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#carouselExampleSlidesOnly .carousel-inner .carousel-item{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#carouselExampleSlidesOnly .carousel-inner .carousel-item img{
+    position: relative;
+    height: 100%;
+    /* width: 100%; */
+}
+
+#heroc {
+    position: relative;
+    z-index: 2;
+}
+
 #hero-content {
-    width: 900px;
+    width: 100%;
     background-color: rgba(51, 47, 47, 0.8);
     box-shadow: 2px 4px 8px rgb(68, 67, 67);
     border-radius: 8px;
     text-align: center;
     padding: 50px 0;
     margin: 0 auto;
-    position: relative;
-    top: 200px;
+    /* top: 200px; */
 }
 
 #hero-content h1 {
@@ -55,6 +84,7 @@
     background-color: white;
     box-shadow: 2px -4px 8px rgb(48, 47, 47);
     border-radius: 25px;
+    position: relative;
     z-index: 20;
 }
 
@@ -66,34 +96,30 @@
     margin: 24px 0;
 }
 
-#list-highlight {
-    display: flex;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 40px;
-    justify-content: center;
-}
-
-.makanan {
-    margin: 0px 24px;
-    text-transform: uppercase;
-}
-
-.makanan p{
+.hg-nama {
     text-align: center;
     font-size: 24px;
     color: rgb(124, 123, 123);
     margin: 20px 0;
 }
 
-.makanan img{
-    height: 200px;
-    width: 100%;
-    box-shadow: 2px 4px 8px rgb(68, 67, 67);
-    border-radius: 10px;
-    object-fit: contain;
-}
-
-.makanan strong {
+.hg-nama strong {
     color: rgb(223, 184, 26);
 }
+
+.card {
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    transition: transform 0.5s ease-out;
+}
+
+a :hover {
+    transform: scale(1.1);
+ }
+
+ a:hover .card-img-top{
+    transform: scale(1.0);
+ }
+
+ a:hover .card-body{
+    transform: scale(1.0);
+ }

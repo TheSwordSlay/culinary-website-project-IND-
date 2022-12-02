@@ -69,29 +69,60 @@
       </div>
     </div>
   </nav>
-  <section id="hero">
+  <div id="hero">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="gambar/gambar-homepage.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="gambar/soto-medan.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="gambar/goi-cuon.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-sm" id="heroc">
+    <br><br><br><br><br>
     <div id="hero-content">
         <h1>Berbagai macam Resep</h1>
         <p>Bingung mulai dari mana?</p>
         <a href="pilihan-resep.html">Mulai dari sini!</a>
     </div>
-  </section>
+  </div>
+  <br><br><br><br><br><br><br><br><br>
   <section id="highlights">
     <h2>Resep pilihan</h2>
-    <ul id="list-highlight">
-      <li class="makanan">
-        <img src="gambar/pempek.jpg" alt="" />
-        <p>Pempek <br><strong>palembang</strong></p>
-      </li>
-      <li class="makanan">
-        <img src="gambar/daging-masak-hitam.jpg" alt="" />
-        <p>Daging Masak Hitam <br><strong>Jambi</strong></p>
-      </li>
-      <li class="makanan">
-        <img src="gambar/ossobuco.jpg" alt="" />
-        <p>Ossobuco <br><strong>Italia</strong></p>
-      </li>
-    </ul>
+    <div class="container-md">
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-4">
+          <a href="template-resep-Pempek.html">
+            <div class="card h-60">
+              <img src="gambar/pempek.jpg" class="card-img-top" alt="" />
+            </div>
+          </a>
+          <p class="hg-nama">Pempek<br><strong>Palembang</strong></p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <a href="template-resep-Daging-Masak-Hitam.html">
+            <div class="card h-60">
+              <img src="gambar/daging-masak-hitam.jpg" class="card-img-top" alt="" />
+            </div>
+          </a>
+          <p class="hg-nama">Daging masak hitam<br><strong>Jambi</strong></p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <a href="template-resep-Ossobuco.html">
+            <div class="card h-60">
+              <img src="gambar/ossobuco.jpg" class="card-img-top" alt="" />
+            </div>
+          </a>
+          <p class="hg-nama">Ossobucco<br><strong>Italia</strong></p>
+        </div>
+      </div>
+    </div>
   </section>
 </body>
 </html>
