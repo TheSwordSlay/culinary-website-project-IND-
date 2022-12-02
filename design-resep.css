@@ -64,8 +64,42 @@
     font-weight: 750;
 }
 
-@media (max-width: 775px) {
+@media (max-width: 740px) {
     .column {
         width: 379px;
+        font-size: xx-small;
+    }
+    .teks-bahan {
+        width: 100%;
+    }
+    .bahan {
+        /* margin: 0; */
+    }
+    h3 {
+        font-size: small;
+    }
+    .porsi {
+        font-size: small;
+    }
+    #tambahp {
+        height: 30px;
+        font-size: xx-small;
+    }
+    #kurangp {
+        height: 30px;
+        font-size: xx-small;
+    }
+    h1 {
+        font-size: small;
+    }
+    .cara {
+        font-size: small;
+    }
+    .deskripsi {
+        margin-bottom: 1rem;
+    }
+    .column .content {
+        padding-right: 0;
+        color: white;
     }
  }
