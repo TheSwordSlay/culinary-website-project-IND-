@@ -4,7 +4,7 @@ body {
 
 #hero {
     height: 120%;
-    width: 120%;
+    width: 100%;
     /* background-image: url(gambar/gambar-homepage.jpg); */
     /* background-position: center;
     background-size: cover; */
@@ -129,4 +129,23 @@ a :hover {
 
  a:hover .card-body{
     transform: scale(1.0);
+ }
+
+ @media (max-width: 775px) {
+    #hero-content p {
+        font-size: medium;
+    }
+
+    #hero-content h1 {
+        font-size: x-large;
+    }
+
+    #hero-content {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+
+    #hero-content a {
+        font-size: medium;
+    }
  }
