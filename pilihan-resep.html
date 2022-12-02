@@ -22,6 +22,7 @@
       rel="stylesheet"
     />
     <title>Document</title>
+    <script src="pilihan-resep.js" defer></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -77,122 +78,179 @@
         </div>
       </div>
     </nav>
-    <main>      
-      <div id="nasional">
-        <h1>List resep nasional</h1>
-        <section id="list-makanan">
-          <ul>
-            <a href="template-resep-Lotek.html">
-              <li class="makanan">
-                <article>
-                  <img src="gambar/lotek.jpg" alt="" />
-                  <div class="konten-makanan">
-                    <h2>Resep daerah Bandung</h2>
-                  </div>
-                </article>
-              </li>
-            </a>
-            <a href="template-resep-Angeun-Lada.html">
-              <li class="makanan">
-                <article>
-                  <img src="gambar/angeun-lada.jpg" alt="" />
-                  <div class="konten-makanan">
-                    <h2>Resep daerah Banten</h2>
-                  </div>
-                </article>
-              </li>
-            </a>
-            <a href="template-resep-Daging-Masak-Hitam.html">
-              <li class="makanan">
-                <article>
-                  <img src="gambar/daging-masak-hitam.jpg" alt="" />
-                  <div class="konten-makanan">
-                    <h2>Resep daerah Jambi</h2>
-                  </div>
-                </article>
-              </li>
-            </a>
-            <a href="template-resep-Soto-Medan.html">
-              <li class="makanan">
-                <article>
-                  <img src="gambar/soto-medan.jpg" alt="" />
-                  <div class="konten-makanan">
-                    <h2>Resep daerah Medan</h2>
-                  </div>
-                </article>
-              </li>
-            </a>
-            <a href="template-resep-Pempek.html">
-              <li class="makanan">
-                <article>
-                  <img src="gambar/pempek.jpg" alt="" />
-                  <div class="konten-makanan">
-                    <h2>Resep daerah Palembang</h2>
-                  </div>
-                </article>
-              </li>
-            </a>
-          </ul>
-        </section>
+    <main> 
+      <br>
+      <h1 id="teks-resep">List resep full</h1>
+      <br>
+      <div class="container">
+        <button class="btn btn-warning mb-3 mx-4" id="btnNasional">Nasional</button>
+        <button class="btn btn-warning mb-3 mx-4" id="btnInternasional">Internasional</button>
+        <button class="btn btn-warning mb-3 mx-4" id="btnAll">Resep full</button>
       </div>
+        <br>
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4" id="1">
+              <a href="template-resep-Lotek.html">
+                <div class="card h-100">
+                  <img src="gambar/lotek.jpg" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Resep daerah Bandung</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4" id="2">
+              <a href="template-resep-Angeun-Lada.html">
+                <div class="card h-100">
+                  <img src="gambar/angeun-lada.jpg" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Resep daerah Banten</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4" id="3">
+              <a href="template-resep-Daging-Masak-Hitam.html">
+                <div class="card h-100">
+                  <img src="gambar/daging-masak-hitam.jpg" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Resep daerah Jambi</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4" id="4">
+              <a href="template-resep-Soto-Medan.html">
+                <div class="card h-100">
+                  <img src="gambar/soto-medan.jpg" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Resep daerah Medan</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4" id="5">
+              <a href="template-resep-Pempek.html">
+                <div class="card h-100">
+                  <img src="gambar/pempek.jpg" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Resep daerah Palembang</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4" id="6">
+              <a href="template-resep-Ossobuco.html">
+                <div class="card h-100">
+                  <img src="gambar/ossobuco.jpg" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Resep daerah Italia</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4" id="7">
+              <a href="template-resep-Ramen-Ichiraku.html">
+                <div class="card h-100">
+                  <img src="gambar/ramen-ichiraku.jpg" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Resep daerah Jepang</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4" id="8">
+              <a href="template-resep-Jjampong.html">
+                <div class="card h-100">
+                  <img src="gambar/jjampong.jpg" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Resep daerah Korea</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4" id="9">
+              <a href="template-resep-Goi Cuon.html">
+                <div class="card h-100">
+                  <img src="gambar/goi-cuon.jpg" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Resep daerah Vietnam</h5>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4" id="10">
+              <a href="template-resep-Drunken-Spaghetti.html">
+                <div class="card h-100">
+                  <img src="gambar/drunken-noodle.jpg" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Resep daerah Thailand</h5>
+                  </div>
+                </div>
+              </a>
+            </div>           
+          </div>
+        </div>
+      <br>
 
-      <div id="internasional">
-        <h1>List resep internasional</h1>
-        <section id="list-makanan">
-          <ul>
-            <a href="template-resep-Ossobuco.html">
-              <li class="makanan">
-                <article>
-                  <img src="gambar/ossobuco.jpg" alt="" />
-                  <div class="konten-makanan">
-                    <h2>Resep daerah Italia</h2>
+      <!-- <div id="internasional">
+        <br>
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4">
+              <a href="template-resep-Ossobuco.html">
+                <div class="card h-100">
+                  <img src="gambar/ossobuco.jpg" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Resep daerah Italia</h5>
                   </div>
-                </article>
-              </li>
-            </a>
-            <a href="template-resep-Ramen-Ichiraku.html">
-              <li class="makanan">
-                <article>
-                  <img src="gambar/ramen-ichiraku.jpg" alt="" />
-                  <div class="konten-makanan">
-                    <h2>Resep daerah Jepang</h2>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <a href="template-resep-Ramen-Ichiraku.html">
+                <div class="card h-100">
+                  <img src="gambar/ramen-ichiraku.jpg" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Resep daerah Jepang</h5>
                   </div>
-                </article>
-              </li>
-            </a>
-            <a href="template-resep-Jjampong.html">
-              <li class="makanan">
-                <article>
-                  <img src="gambar/jjampong.jpg" alt="" />
-                  <div class="konten-makanan">
-                    <h2>Resep daerah Korea</h2>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <a href="template-resep-Jjampong.html">
+                <div class="card h-100">
+                  <img src="gambar/jjampong.jpg" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Resep daerah Korea</h5>
                   </div>
-                </article>
-              </li>
-            </a>
-            <a href="template-resep-Goi Cuon.html">
-              <li class="makanan">
-                <article>
-                  <img src="gambar/goi-cuon.jpg" alt="" />
-                  <div class="konten-makanan">
-                    <h2>Resep daerah Vietnam</h2>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <a href="template-resep-Goi Cuon.html">
+                <div class="card h-100">
+                  <img src="gambar/goi-cuon.jpg" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Resep daerah Vietnam</h5>
                   </div>
-                </article>
-              </li>
-            </a>
-            <a href="template-resep-Drunken-Spaghetti.html">
-              <li class="makanan">
-                <article>
-                  <img src="gambar/drunken-noodle.jpg" alt="" />
-                  <div class="konten-makanan">
-                    <h2>Resep daerah Thailand</h2>
+                </div>
+              </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <a href="template-resep-Drunken-Spaghetti.html">
+                <div class="card h-100">
+                  <img src="gambar/drunken-noodle.jpg" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Resep daerah Thailand</h5>
                   </div>
-                </article>
-              </li>
-            </a>
-          </ul>
-        </section>
-      </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div> -->
     </main>
   </body>
 </html>

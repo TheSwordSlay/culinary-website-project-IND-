@@ -5,6 +5,55 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
 
+ .btn {
+   width: 10rem;
+ }
+
+ .container img {
+    height: 80%;
+    overflow: hidden;
+    object-fit: cover;
+ }
+
+ a {
+    text-decoration: none;
+    transition: transform 0.5s ease-out;
+ }
+
+ a :hover {
+    transform: scale(1.1);
+ }
+
+ a:hover .card-img-top{
+    transform: scale(1.0);
+ }
+
+ a:hover .card-body{
+    transform: scale(1.0);
+ }
+
+ a:hover .card-title{
+    transform: scale(1.0);
+ }
+
+ .card {
+    background-color: rgb(228, 206, 182);
+    transition: transform 0.5s ease-out;
+ }
+
+ a:hover .card {
+    background-color: rgb(238, 139, 25);
+ }
+
+ a:hover .card-title {
+    color: black;
+ }
+
+ .card-title {
+    color: rgb(238, 139, 25);
+    font-weight: bold;
+ }
+
 main h1 {
     text-align: center;
     color: rgb(238, 164, 80);
@@ -12,58 +61,3 @@ main h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 600;
 }
-
-#nasional {
-    padding-top: 30px;
-}
-
-#list-makanan {
-    width: 80%;
-    margin: 32px auto;
-}
-
-#list-makanan ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 16px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-main ul a {
-    text-decoration: none;
-    color: chocolate;
-}
-
-main ul li:hover {
-    background-color: rgb(228, 157, 44);
-    color: black;
-}
-
-.makanan {
-    background-color: rgb(228, 206, 182);
-    border-radius: 6px;
-    /* overflow: hidden; */
-}
-
-.makanan img {
-    height: 240px;
-    width: 100%;
-    object-fit: cover;
-    overflow: hidden;
-}
-
-.konten-makanan {
-    padding: 16px;
-    text-align: center;
-    list-style: none;
-}
-
-.makanan h2 {
-    margin: 0 0 5px 0;
-    font-size: large;
-    font-weight: 750;
-}
-
-/*  */
