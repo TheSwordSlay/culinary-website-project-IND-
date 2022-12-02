@@ -54,7 +54,7 @@ body {
     font-weight: bold;
  }
 
-main h1 {
+main h2 {
     text-align: center;
     color: rgb(238, 164, 80);
     font-size: 48px;
@@ -63,7 +63,7 @@ main h1 {
 }
 
 @media (max-width: 775px) {
-   #no-smaller {
-       width: 775px;
+   main h2 {
+      font-size: 30px;
    }
 }
