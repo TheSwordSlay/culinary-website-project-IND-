@@ -1,3 +1,7 @@
+body {
+    background-color: white;
+}
+
 #hero {
     height: 120%;
     width: 120%;
@@ -30,6 +34,7 @@
     position: relative;
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
 #heroc {
