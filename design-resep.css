@@ -63,3 +63,9 @@
     font-size: large;
     font-weight: 750;
 }
+
+@media (max-width: 775px) {
+    .column {
+        width: 379px;
+    }
+ }
