@@ -1,6 +1,6 @@
 #hero {
-    height: 110%;
-    width: 100%;
+    height: 120%;
+    width: 120%;
     /* background-image: url(gambar/gambar-homepage.jpg); */
     /* background-position: center;
     background-size: cover; */
@@ -29,10 +29,11 @@
 #carouselExampleSlidesOnly .carousel-inner .carousel-item img{
     position: relative;
     height: 100%;
-    /* width: 100%; */
+    width: 100%;
 }
 
 #heroc {
+    width: 70%;
     position: relative;
     z-index: 2;
 }
