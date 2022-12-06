@@ -80,9 +80,9 @@ body {
     border-radius: 8px;
 }
 
-#hero-content a:hover {
+/* #hero-content a:hover {
     background-color: rgb(255, 238, 0);
-}
+} */
 
 #highlights {
     padding: 24px;
@@ -138,6 +138,10 @@ a :hover {
 
     #hero-content h1 {
         font-size: x-large;
+    }
+
+    #message {
+        font-size: xx-small;
     }
 
     #hero-content {

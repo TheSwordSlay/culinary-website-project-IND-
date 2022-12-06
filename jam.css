@@ -1,0 +1,24 @@
+/* * {
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway", sans-serif;
+} */
+/* body {
+	background: #000;
+	display: grid;
+	place-items: center;
+	height: 100vh;
+} */
+#clock {
+	font-size: 25px;
+	background: rgba(0, 0, 0, 0);
+	-webkit-text-fill-color: rgb(245, 243, 160);
+	font-weight: 500;
+	margin-right: 1rem;
+}
+
+@media (max-width: 775px) {
+	#clock {
+		margin: auto;
+	}
+}
