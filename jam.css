@@ -10,15 +10,20 @@
 	height: 100vh;
 } */
 #clock {
-	font-size: 25px;
-	background: rgba(0, 0, 0, 0);
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+	margin-top: 6px;
+	font-size: 1.5rem;
 	-webkit-text-fill-color: rgb(245, 243, 160);
 	font-weight: 500;
 	margin-right: 1rem;
+	position: absolute;
+	z-index: 100;
 }
 
 @media (max-width: 775px) {
 	#clock {
-		margin: auto;
+		font-size: 1rem;
 	}
 }

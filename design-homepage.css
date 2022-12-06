@@ -133,15 +133,11 @@ a :hover {
 
  @media (max-width: 775px) {
     #hero-content p {
-        font-size: medium;
+        font-size: small;
     }
 
     #hero-content h1 {
         font-size: x-large;
-    }
-
-    #message {
-        font-size: xx-small;
     }
 
     #hero-content {
